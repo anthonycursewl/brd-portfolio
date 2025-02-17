@@ -15,16 +15,7 @@ export default function App2() {
 
             <Routes>
                 <Route path="/" element={ <Main/> }/>
-                <Route path='/brd-info-symbols' element={<InfoSm />}/>
-                <Route path='/projects' element={<BrdNotes /> }/>
-                <Route path='/projects/:projectName' element={<h1>Ola</h1> }/>
-                    <Route path="details" element={<Projects /> }>
-                </Route>
-                <Route path="/*" element={<h1>Not found</h1>} />
-                <Route path="/about" element={<ABout />} />
             </Routes>
-
-            <AnFooter />
         </>
     )
 }
